@@ -302,7 +302,7 @@
 
     // 15. map js
     // ---------------------------------------------------------------------------
-    var map = L.map('mapwrapper').setView([-37.817160, 144.955937], 12);
+    var map = L.map('mapwrapper').setView([37.385647, -122.068508], 12);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -317,7 +317,7 @@
         // shadowSize: [72, 72],
     });
 
-    L.marker([-37.817160, 144.955937], {icon: greenIcon}).addTo(map);
+    L.marker([37.385647, -122.068508], {icon: greenIcon}).addTo(map);
 
 
 
@@ -343,5 +343,6 @@
 
 
   
+
 
 })(jQuery);	  
